@@ -27,7 +27,8 @@ app.post('/dadosRecebidos', (req, result) => {
 
         con.query(query, [], (erro, result) => {
             let existeGateway = result.find(mac => mac.gat_mac === dadosRecebidos[0].mac);
-            let existeBeacon = result.find(mac => mac.beacon_mac === dadosRecebidos.mac && beacon_status == true);
+            let existeBeacon = result.find(mac => mac.beacon_mac === dadosRecebidos.mac &&
+                 beacon_status == true);
 
 
             if (existeBeacon) {

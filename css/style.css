@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Style Barra de MENU*/
+main{
+    width: 100%;
+    position: fixed;
+    
+}
+
+#logo-img{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+#logo-img img{
+    width: 100px;
+    height: 50px;
+    
+}
+
+.menu-ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to right, white, white, rgb(214, 214, 214), rgb(108, 108, 108), black, black, black, black);
+    border: solid 1px black;
+}
+
+.menu-ancora{
+    font-size: 20px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.menu-ul li a:hover{
+    background-color: rgb(25, 26, 26);
+
+}
+
+/* RODAPE */
+
+.rodape{
+    width: 100%;
+    background-image: linear-gradient(to left, white, white, rgb(214, 214, 214), rgb(108, 108, 108), black, black, black, black);
+    color: white;
+    padding-top: 0.25px;
+    border-top: 2px solid #1e1e1f;
+    bottom: 0;
+    position: absolute;
+    height: 60px;
+}
+.rodape img{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.rodape p{
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 16px;
+    width: 50%;
+    align-items: center;
+    padding-top: 20px;
+    
+}
