@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fundo_login{
+    background-color: rgb(100, 100, 100);
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: block;
+}
+
+img{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+h1{
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+.input_login{
+    display: block;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+#mostrar_senha{
+    display: inline;
+}
+::placeholder{
+    color: black;
+    font-size: 15px;
+    padding-left: 5px;
+}
+h2 a {
+    text-align: start;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: blue;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
