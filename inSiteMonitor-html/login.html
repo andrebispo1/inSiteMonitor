@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/login.css">
     <title>Login</title>
+    
 </head>
 <body>
     <div id="fundo_login">
@@ -19,5 +20,22 @@
 
     </form>
     </div>
+
+    <script defer>
+        let mostrarSenha = document.getElementById('mostrar_senha');
+        let inputMostrar = document.getElementById('login_senha');
+    
+    // Adicionando um evento 'change' no checkbox
+    mostrarSenha.addEventListener('change', (event) => {
+      
+        if (mostrarSenha.checked) {
+            
+            inputMostrar.type = 'text';
+        } else {
+             
+            inputMostrar.type = 'password';
+        }
+    });
+        </script>
 </body>
 </html>
